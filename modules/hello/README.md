@@ -1,8 +1,8 @@
 <h1>Load kernel module</h1>
-sudo insmod Hello.ko  
+sudo insmod hello.ko  
 <h1>Check status of kernel module</h1>
-sudo lsmod | grep Hello  
+sudo lsmod | grep hello  
 <h1>Check info of kernel module</h1>
-sudo modinfo Hello.ko
+sudo modinfo hello.ko
 <h1>Unload kernel module</h1>
-sudo rmmod Hello  
+sudo rmmod hello  
